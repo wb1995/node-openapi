@@ -19,7 +19,7 @@ app.use(express.urlencoded({ extended: false }));
 app.get("/health", (req, res) => {
   res.status(200).json({
     status: "ok",
-    message: "Express middleware server is running",
+    message: "Express1 middleware server is running",
     timestamp: new Date().toISOString(),
     version: "1.0.0",
   });
